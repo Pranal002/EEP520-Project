@@ -1,0 +1,318 @@
+{
+    "name": "Red Box Maze",
+    "ip": "0.0.0.0",
+    "port": 8765,
+
+    "agents": [    
+        {
+            "definition": "defs/robot.json",
+            "style": { "fill": "lightgreen", "stroke": "black" },
+            "position": {
+                "x": -380, 
+                "y": -100, 
+                "theta": 0
+            }
+        }
+   ],
+
+    "statics": [
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -10, "y": 200 },
+                { "x": -10,  "y": 50 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -260, "y": -60 },
+                { "x": -260,  "y": -30 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -10, "y": 200 },
+                { "x": -350,  "y": 200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -10, "y": 50 },
+                { "x": 30,  "y": 50 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -10, "y": 0 },
+                { "x": 30,  "y": 0 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -10, "y": -200 },
+                { "x": -350,  "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": -350,  "y": -120 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -350, "y": -120 },
+                { "x": -390,  "y": -120 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -350, "y": -80 },
+                { "x": -390,  "y": -80 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -350, "y": -80 },
+                { "x": -350,  "y": 200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -10, "y": 150 },
+                { "x": -120,  "y": 150 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -120, "y": 0 },
+                { "x": -120,  "y": 150 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -120, "y": 0 },
+                { "x": -260,  "y": 0}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -180, "y": -30 },
+                { "x": -260,  "y": -30}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -10, "y": -35 },
+                { "x": -96,  "y": -35}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -96, "y": -70 },
+                { "x": -96,  "y": -35}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -96, "y": -70 },
+                { "x": -50,  "y": -70}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -50, "y": -160 },
+                { "x": -50,  "y": -70}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -50, "y": -160 },
+                { "x": -190,  "y": -160}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -190, "y": -120 },
+                { "x": -190,  "y": -160}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -190, "y": -120 },
+                { "x": -130,  "y": -120}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -130, "y": -50 },
+                { "x": -130,  "y": -120}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -65, "y": 150 },
+                { "x": -65,  "y": 10}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -180, "y": 150 },
+                { "x": -180,  "y": 50}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -250, "y": 50 },
+                { "x": -180,  "y": 50}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -250, "y": 50 },
+                { "x": -250,  "y": 110}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -180, "y": 150 },
+                { "x": -300,  "y": 150}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -300, "y": -60 },
+                { "x": -300,  "y": 150}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -300, "y": -150 },
+                { "x": -300,  "y": -110}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -300, "y": -150 },
+                { "x": -240,  "y": -150}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -240, "y": -89 },
+                { "x": -240,  "y": -150}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -240, "y": -89 },
+                { "x": -200,  "y": -89}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -200, "y": -75 },
+                { "x": -200,  "y": -89}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -200, "y": -75 },
+                { "x": -167,  "y": -75}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -167, "y": -60 },
+                { "x": -167,  "y": -75}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -250, "y": 110 },
+                { "x": -217,  "y": 110}
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 250, "y": -250 },
+                { "x": 250,  "y": 250 },
+                { "x": 240,  "y": 250 },
+                { "x": 240, "y": -250 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -500, "y": 250 },
+                { "x": 250,  "y": 250 },
+                { "x": 250,  "y": 240 },
+                { "x": -500, "y": 240 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -500, "y": -250 },
+                { "x": 250,  "y": -250 },
+                { "x": 250,  "y": -240 },
+                { "x": -500, "y": -240 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -510, "y": -250 },
+                { "x": -510,  "y": 250 },
+                { "x": -500,  "y": 250 },
+                { "x": -500, "y": -250 }
+            ]
+        },
+        {
+
+            "style": { "fill": "gray", "stroke": "red" },
+            "shape": [
+                { "x": -10, "y": -200 },
+                { "x": -10,  "y": 0 }
+            ]
+        }
+
+    ]
+
+}
